@@ -1,0 +1,153 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-color: #121212;
+  color: #FFD700;
+}
+
+nav a,
+nav a:visited {
+  margin-right: 10px;
+  color: #FFD700;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff2a8;
+}
+
+a,
+a:visited {
+  color: #7db8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b8d9ff;
+}
+
+form {
+  max-width: 500px;
+}
+
+input, select, textarea, button {
+  display: block;
+  margin: 8px 0;
+  width: 100%;
+  padding: 6px;
+  background-color: #444;
+  color: #FFD700;
+  border: 1px solid #777;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+input::placeholder {
+  color: #FFD700;
+}
+
+button {
+  background-color: #666;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #888;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+  color: #FFD700;
+}
+
+th {
+  background-color: #2a2a2a;
+}
+
+.bar {
+  height: 20px;
+  background: #666;
+  margin: 5px 0;
+  color: #FFD700;
+  text-align: center;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr auto;
+  gap: 10px;
+  align-items: end;
+}
+
+.charts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.chart-box {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .charts-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+canvas {
+  max-width: 100%;
+  height: 420px !important;
+}
+
+.search-panel {
+  max-width: 700px;
+  margin-bottom: 1.5rem;
+}
+
+.search-panel label {
+  display: block;
+  margin-bottom: 8px;
+  color: #FFD700;
+}
+
+.result-card {
+  border: 1px solid #555;
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+}
+
+.result-card h2 {
+  margin: 0 0 10px;
+  color: #FFD700;
+}
+
+.result-card p {
+  margin: 8px 0;
+}
+
+mark {
+  background: #ffeb3b;
+  color: #000;
+}
+
+.status-message {
+  margin-top: 24px;
+  color: #ccc;
+}
+
+.empty {
+  color: #aaa;
+}
